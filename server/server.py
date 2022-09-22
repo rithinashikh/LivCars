@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import util
 import math
 
-estimated_price = None
+
 
 
 app = Flask(__name__)
