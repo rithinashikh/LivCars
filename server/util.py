@@ -26,7 +26,7 @@ def get_estimated_price(model,km_driven,owner,car_age):
 
 def load_saved_artifacts():
 
-    global  __data_columns
+    global __data_columns
     global __models
 
     with open("./artifacts/columns.json", "r") as f:
